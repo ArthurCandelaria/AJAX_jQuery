@@ -1,0 +1,65 @@
+<html>
+
+<head>
+
+    <title>Consumo Ajax</title>
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
+        integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+
+    <script src="https://code.jquery.com/jquery-2.2.4.min.js"
+        integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44=" crossorigin="anonymous"></script>
+
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="Consumo de API com Ajax">
+    <meta name="Arthur Candelaria">
+
+</head>
+
+<body>
+
+    <div class="load">
+        <hr />
+        <hr />
+        <hr />
+        <hr />
+    </div>
+
+    <div class="bg"></div>
+
+    <div class="container">
+        <header>
+            <div class="my-4">
+                <img src="http://www.devmedia.com.br/Imagens/2013/logo.png" class="w-10 position-absolute">
+                <h1 class="text-center">consulta de notas</h1>
+            </div>
+        </header>
+
+        <section>
+
+            <form id="formulario" class="mb-4">
+                <label>Id da nota a ser buscado:</label>
+                <div class="d-flex">
+                    <input id="id_nota" name="id" placeholder="vazio para exibir todas">
+                    <button class="btn btn-primary ml-2" id="enviar">enviar</button>
+                </div>
+            </form>
+
+        </section>
+
+        <hr>
+
+        <section>
+            <div id="retorno"></div>
+        </section>
+
+    </div>
+
+</body>
+
+<script type="text/javascript" src="js/script.js"></script>
+
+</html>
